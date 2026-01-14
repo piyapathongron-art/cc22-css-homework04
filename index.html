@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <title>Shopping-cart Page</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="leftheader">
+            <div class="logo">
+                <i class="fa-solid fa-icons"></i>
+            </div>
+            <p><strong>Job</strong>Passcard</p>
+        </div>
+
+        <div class="centerheader">
+            <div class="aboutus">
+                about us
+            </div>
+            <div class="passcard">
+                passcard
+            </div>
+            <div class="profile">
+                profile
+            </div>
+        </div>
+
+        <div class="rightheader">
+            <div class="serch">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="login">
+                <p>login</p>
+                <hr>
+                <p>sign up</p>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="mycart">
+        <h1>My Cart</h1>
+    </div>
+
+    <!-- content -->
+
+    <div class="content">
+
+        <!-- left content -->
+        <div class="leftcontent">
+            <!-- itembox1 -->
+            <div class="item1">
+                <div class="trashcan1">
+                    <i class="fa-regular fa-trash-can"></i>
+                </div>
+                <div class="itembox">
+                    <div class="icon">
+                        <i class="fa-regular fa-file-lines"></i>
+                    </div>
+                    <div class="name">
+                        Google Docs
+                    </div>
+                    <div class="description">
+                        Used for business
+                    </div>
+                </div>
+
+                <div class="itemboxdes">
+                    <div class="headername">
+                        Google Docs
+                    </div>
+                    <div class="inputitem1">
+
+                        <div class="checkbox1"><input type="checkbox" name="1" id="box"><span class="checkmark"></span>
+                        </div>
+
+                        <div class="checkbox2"><input type="checkbox" name="2" id="box"><span class="checkmark"></span>
+                        </div>
+
+                        <div class="checkbox3"><input type="checkbox" name="3" id="box"><span class="checkmark"></span>
+                        </div>
+
+                        <select>
+
+                            <option value="LV 1-3">LV 1-3</option>
+                            <option value="LV 2-3">LV 2-3</option>
+                            <option value="LV 3-3">LV 3-3</option>
+                        </select>
+                    </div>
+                    <div class="price">
+                        THB 150
+                    </div>
+                </div>
+            </div>
+
+            <!-- itembox2 -->
+
+            <div class="item2">
+                <div class="trashcan1">
+                    <i class="fa-regular fa-trash-can"></i>
+                </div>
+                <div class="itembox">
+                    <div class="icon">
+                        <i class="fa-regular fa-file-lines"></i>
+                    </div>
+                    <div class="name">
+                        Google Slides
+                    </div>
+                    <div class="description">
+                        Used for business
+                    </div>
+                </div>
+
+                <div class="itemboxdes">
+                    <div class="headername">
+                        Google Slides
+                    </div>
+                    <div class="inputitem2">
+
+                        <div class="checkbox1"><input type="checkbox" name="1" id="box"><span class="checkmark"></span>
+                        </div>
+
+                        <div class="checkbox2"><input type="checkbox" name="2" id="box"><span class="checkmark"></span>
+                        </div>
+
+                        <div class="checkbox3"><input type="checkbox" name="3" id="box"><span class="checkmark"></span>
+                        </div>
+
+                        <div class="checkbox4"><input type="checkbox" name="4" id="box"><span class="checkmark"></span>
+                        </div>
+
+                        <select>
+
+                            <option value="LV 1-4">LV 1-4</option>
+                            <option value="LV 2-4">LV 2-4</option>
+                            <option value="LV 3-4" selected>LV 3-4</option>
+                            <option value="LV 3-4">LV 3-4</option>
+                        </select>
+                    </div>
+                    <div class="price">
+                        THB 150
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- rightcontent -->
+        
+        <div class="rightcontent">
+            <div class="checkout">
+                <div class="upper">
+                    <div class="header">
+                        <h3>Order info</h3>
+                    </div>
+                    
+                    <div class="subtotal">
+                        <p class="p1">Subtotal</p>
+                        <p class="p2">THB 300</p>
+                    </div>
+                    
+                    <div class="coupon">
+                        <div class="icon">
+                            <i class="fa-solid fa-ticket"></i>
+                        </div>
+                        <input type="text" placeholder="Promotion Cooupon">
+                        <button class="applybtn">apply</button>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <!-- <hr> -->
+                
+                <div class="under">
+                    <div class="totalpayment">
+                        <h3>Total payment</h3>
+                        <h1>THB 300</h1>
+                    </div>
+                    <button class="checkoutbtn">Log in to Checkout</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+        
+    </div>
+</body>
+
+</html>
